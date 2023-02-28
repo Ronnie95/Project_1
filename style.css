@@ -1,0 +1,44 @@
+h1 {
+
+    color:blue;
+    text-align: center;
+    font-family: "Mynerve", serif;
+}
+h2 {
+    text-align: center;
+    color:aqua;
+}
+
+.Easy {
+    text-align: center;
+    display: block;
+    margin:auto;
+    margin-top: 30px;
+    background-color: green;
+    color: antiquewhite;
+    border-radius: 10px;
+
+
+}
+.Intermediate {
+    text-align: center;
+    display: block;
+    margin:auto;
+    margin-top: 30px;
+    background-color: yellow;
+    border-radius: 10px;
+
+
+}
+.Hard {
+    text-align: center;
+    display: block;
+    margin:auto;
+    margin-top: 30px;
+    background-color: red;
+    border-radius: 10px;
+
+}
+body {
+    background-color: black;
+}
