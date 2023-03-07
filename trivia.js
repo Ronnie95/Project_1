@@ -1,6 +1,16 @@
-// Queryselect my buttons for functionality 
-// create functions that prohibit the user from moving to the next question without answering the question on screen 
-// add colorful html messages once the user answers the question correctly or incorrectly 
-// add some animation once the user completes a level 
-// store questions in objects or arrays 
-// add some event listeners for buttons 
+const firstQ = document.getElementById("red")
+const purple = document.querySelector('.purple');
+const green = document.getElementsByClassName("Green");
+const orange = document.getElementsByClassName("Orange");
+
+
+firstQ.addEventListener("click", changeRed);
+
+function changeRed() {
+    firstQ.style.backgroundColor = "red";
+}
+purple.addEventListener("click", changeHtml)
+
+function changeHtml() {
+    purple.innerHTML = "wrong answer tough guy"
+}
