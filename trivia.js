@@ -12,6 +12,8 @@ const Bananas = document.querySelector('.Bananas');
 const clothes = document.querySelector('.clothes');
 const toothpaste = document.querySelector('.toothpaste');
 const Lemons = document.querySelector('.lemons');
+const begin = document.querySelector('.begin');
+const question1 = document.querySelector('.question1');
 
 
 firstQ.addEventListener("click", (event) => changeRed(event));
@@ -55,15 +57,26 @@ alabama.addEventListener("click", (event) => correct(event))
 
 Bananas.addEventListener("click", (event) => correctAnswer(event))
 Bananas.addEventListener("click", (event) => correct(event))
+
 tv.addEventListener("click", (event) => newHtml(event));
 tv.addEventListener("click", (event) => changeRed(event));
+
 clothes.addEventListener("click", (event) => newHtml(event));
 clothes.addEventListener("click", (event) => changeRed(event));
+
 toothpaste.addEventListener("click", (event) => newHtml(event));
 toothpaste.addEventListener("click", (event) => changeRed(event));
+
 Lemons.addEventListener("click", (event) => newHtml(event));
 Lemons.addEventListener("click", (event) => changeRed(event));
 
-
+begin.addEventListener("click", () => {
+    if(question1.style.display == "none"){
+        question1.style.display = "block";
+    }
+    else{
+        question1.style.display = "none";
+    }
+})
 
 
