@@ -1,15 +1,176 @@
 .question2 {
     display: none;
+    align-items: center;
+    text-align: center;
+    
 }
 .question3 {
     display: none;
+    align-items: center;
+    text-align: center;
+    
 }
 .question1 {
     display: none;
+    align-items: center;
+    text-align: center;
+    
 }
 .nxt {
     display: none;
 }
 .nxt1 {
     display: none;
+}
+.begin{
+    background-color: green;
+    border-radius: 10px;
+  
+
+}
+#red{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: aqua;
+   
+}
+.purple{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: aqua;
+   
+}
+.green{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: aqua;
+   
+}
+.orange{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: aqua;
+   
+}
+.h{
+    background-color: aqua;
+    padding: 10px;
+    border: 5px solid black
+    
+}
+body{
+    background-color:mediumslateblue;
+}
+.hh{
+    background-color:cadetblue;
+    padding: 10px;
+    border: 5px solid black
+    
+}
+.arkansas{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color:cadetblue
+   
+}
+.newYork{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color:cadetblue
+   
+}
+.california{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color:cadetblue
+   
+}
+.alabama{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color:cadetblue
+   
+}
+.maine{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color:cadetblue
+   
+}
+.hhh{
+    background-color:goldenrod;
+    padding: 10px;
+    border: 5px solid black
+}
+.tv{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color:goldenrod;
+   
+}
+.Bananas{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color:goldenrod;
+   
+}
+.clothes{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color:goldenrod;
+   
+}
+.toothpaste{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color:goldenrod;
+   
+}
+.lemons{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color:goldenrod;
+    
+}
+.nxt{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: aqua;
+}
+.nxt1{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color:cadetblue;
 }
