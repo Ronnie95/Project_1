@@ -1,14 +1,17 @@
 .h{
     background-color: aqua;
     padding: 10px;
-    border: 5px solid black
+    border: 5px solid black;
+    width: 300px;
+    margin:auto;
     
 }
 body {
     background-color: beige;
 }.q1 {
-    align-items: center;
+
     text-align: center;
+    display: none;
     
 }
 .nile {
@@ -54,8 +57,10 @@ background-color: aqua;
 .hh{
     background-color: yellow;
     padding: 10px;
-    border: 5px solid black
-    
+    border: 5px solid black;
+    width: 300px;
+    margin:auto;
+    margin-top: 100px;
 }
 .bas {
     border-radius: 10px;
@@ -101,12 +106,16 @@ background-color: aqua;
 .q2 {
     align-items: center;
     text-align: center;
+    display: none;
     
 }
 .hhh{
     background-color: lightcoral;
     padding: 10px;
-    border: 5px solid black
+    border: 5px solid black;
+    width: 300px;
+    margin:auto;
+    margin-top: 100px;
     
 }
 .rob{
@@ -153,6 +162,7 @@ background-color: aqua;
 .q3{
     align-items: center;
     text-align: center;
+    display: none;
 }
 .nxt{
     border-radius: 10px;
@@ -172,12 +182,31 @@ background-color: aqua;
 .NXT1{
     background-color: aqua;
     padding: 10px;
-    border: 5px solid black
+    border: 3px solid black;
+    width: 100px;
+    margin:auto;
+    margin-top: 100px;
+    text-align: center;
     
 }
 .mainscreen{
     background-color: aqua;
     padding: 10px;
-    border: 5px solid black
+    border: 3px solid black;
+    width: 100px;
+    margin:auto;
+    margin-top: 10px;
+    text-align: center;
     
+}
+.nxtb {
+    display: none;
+}
+
+.nxtc{
+    display: none;
+}
+.begin{
+    background-color: green;
+    border-radius: 10px;
 }

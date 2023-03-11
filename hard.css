@@ -162,7 +162,7 @@ body{
 }
 .nxt{
     border-radius: 10px;
-    display: block;
+    display: none;
     margin: auto;
     margin-top: 30px;
     background-color: aqua;
