@@ -3,7 +3,6 @@ const purple = document.querySelector('.purple');
 const green = document.querySelector('.green');
 const orange = document.querySelector('.orange');
 const arkansas = document.querySelector('.arkansas');
-const newYork = document.querySelector('.new');
 const california = document.querySelector('.california');
 const alabama = document.querySelector('.alabama');
 const maine = document.querySelector('.maine');
@@ -45,7 +44,12 @@ function correctAnswer() {
 }
 function correct() {
     event.target.innerHTML = "Correct";
+
 }
+function lastCorrect() {
+    event.target.innerHTML = "Congrats you won the game!!"
+}
+
 
 arkansas.addEventListener("click", (event) => newHtml(event));
 arkansas.addEventListener("click", (event) => changeRed(event));
@@ -60,7 +64,7 @@ alabama.addEventListener("click", (event) => correctAnswer(event))
 alabama.addEventListener("click", (event) => correct(event))
 
 Bananas.addEventListener("click", (event) => correctAnswer(event))
-Bananas.addEventListener("click", (event) => correct(event))
+Bananas.addEventListener("click", (event) => lastCorrect(event))
 
 tv.addEventListener("click", (event) => newHtml(event));
 tv.addEventListener("click", (event) => changeRed(event));
@@ -101,7 +105,7 @@ nxt.addEventListener("click", () => {
     }
 })
 
-question2.addEventListener("click", () => {
+alabama.addEventListener("click", () => {
     if(nxt1.style.display == "none"){
         nxt1.style.display = "block";
     }

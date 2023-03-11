@@ -21,10 +21,18 @@ const nxtc = document.querySelector('.nxtc');
 const q3 = document.querySelector('.q3');
 
 yangR.addEventListener("click", (event) => changeRed(event));
+yangR.addEventListener("click", (event) => newHtml(event));
+
 amazon.addEventListener("click", (event) => changeRed(event));
+amazon.addEventListener("click", (event) => newHtml(event));
+
 yenR.addEventListener("click", (event) => changeRed(event));
+yenR.addEventListener("click", (event) => newHtml(event));
+
 miss.addEventListener("click", (event) => changeRed(event));
-yangR.addEventListener("click", (event) => changeRed(event));
+miss.addEventListener("click", (event) => newHtml(event));
+
+nileR.addEventListener("click", (event) => correct(event))
 nileR.addEventListener("click", (event) => correctAnswer(event))
 
 function changeRed() {
@@ -34,20 +42,50 @@ function correctAnswer() {
     event.target.style.backgroundColor = "green";
 }
 
+function newHtml(event) {
+    event.target.innerHTML = "Sorry that's wrong"
+   
+  }
+
+  function correct() {
+    event.target.innerHTML = "That's Right!!";
+}
+
+function lastCorrect() {
+    event.target.innerHTML = "Congrats you beat the round!!"
+}
 
 basketBall.addEventListener("click", (event) => changeRed(event));
+basketBall.addEventListener("click", (event) => newHtml(event));
+
 tennis.addEventListener("click", (event) => changeRed(event));
+tennis.addEventListener("click", (event) => newHtml(event));
+
 hock.addEventListener("click", (event) => changeRed(event));
+hock.addEventListener("click", (event) => newHtml(event));
+
 lax.addEventListener("click", (event) => changeRed(event));
+lax.addEventListener("click", (event) => newHtml(event));
+
 fut.addEventListener("click", (event) => correctAnswer(event))
+fut.addEventListener("click", (event) => correct(event))
 
 
 
 rob.addEventListener("click", (event) => changeRed(event));
+rob.addEventListener("click", (event) => newHtml(event));
+
 adam.addEventListener("click", (event) => changeRed(event));
+adam.addEventListener("click", (event) => newHtml(event));
+
 idris.addEventListener("click", (event) => changeRed(event));
+idris.addEventListener("click", (event) => newHtml(event));
+
 denzel.addEventListener("click", (event) => changeRed(event));
+denzel.addEventListener("click", (event) => newHtml(event));
+
 leo.addEventListener("click", (event) => correctAnswer(event))
+leo.addEventListener("click", (event) => lastCorrect(event))
 
 
 begin.addEventListener("click", () => {

@@ -20,32 +20,64 @@ const q3 = document.querySelector('.q3');
 
 
 spiders.addEventListener("click", (event) => changeRed(event));
+spiders.addEventListener("click", (event) => newHtml(event));
+
 cats.addEventListener("click", (event) => changeRed(event));
+cats.addEventListener("click", (event) => newHtml(event));
+
 giraffes.addEventListener("click", (event) => changeRed(event));
+giraffes.addEventListener("click", (event) => newHtml(event));
+
 dogs.addEventListener("click", (event) => correctAnswer(event));
+dogs.addEventListener("click", (event) => correct(event))
 
 function changeRed() {
     event.target.style.backgroundColor = "red";
 }
+
 function correctAnswer() {
     event.target.style.backgroundColor = "green";
 }
 
-cognac.addEventListener("click", (event) => changeRed(event));
-brandy.addEventListener("click", (event) => changeRed(event));
-wine.addEventListener("click", (event) => changeRed(event));
-gin.addEventListener("click", (event) => correctAnswer(event))
 
-spiders.addEventListener("click", (event) => changeRed(event));
-cats.addEventListener("click", (event) => changeRed(event));
-giraffes.addEventListener("click", (event) => changeRed(event));
-dogs.addEventListener("click", (event) => correctAnswer(event));
+  function correct() {
+    event.target.innerHTML = "Way to go that's correct";
+}
+
+function lastCorrect() {
+    event.target.innerHTML = "Congrats you beat the round!!"
+}
+
+function newHtml(event) {
+    event.target.innerHTML = "Unfortunately NO!"
+   
+  }
+
+cognac.addEventListener("click", (event) => changeRed(event));
+cognac.addEventListener("click", (event) => newHtml(event));
+
+brandy.addEventListener("click", (event) => changeRed(event));
+brandy.addEventListener("click", (event) => newHtml(event));
+
+wine.addEventListener("click", (event) => changeRed(event));
+wine.addEventListener("click", (event) => newHtml(event));
+
+gin.addEventListener("click", (event) => correctAnswer(event))
+gin.addEventListener("click", (event) => correct(event))
+
 
 
 year.addEventListener("click", (event) => changeRed(event));
+year.addEventListener("click", (event) => newHtml(event));
+
 year2.addEventListener("click", (event) => changeRed(event));
+year2.addEventListener("click", (event) => newHtml(event));
+
 year3.addEventListener("click", (event) => changeRed(event));
+year3.addEventListener("click", (event) => newHtml(event));
+
 year1.addEventListener("click", (event) => correctAnswer(event));
+year1.addEventListener("click", (event) => lastCorrect(event))
 
 begin.addEventListener("click", () => {
     if(q1.style.display == "none"){
