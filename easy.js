@@ -35,10 +35,10 @@ miss.addEventListener("click", (event) => newHtml(event));
 nileR.addEventListener("click", (event) => correct(event))
 nileR.addEventListener("click", (event) => correctAnswer(event))
 
-function changeRed() {
+function changeRed(event) {
     event.target.style.backgroundColor = "red";
 }
-function correctAnswer() {
+function correctAnswer(event) {
     event.target.style.backgroundColor = "green";
 }
 
@@ -47,11 +47,11 @@ function newHtml(event) {
    
   }
 
-  function correct() {
+  function correct(event) {
     event.target.innerHTML = "That's Right!!";
 }
 
-function lastCorrect() {
+function lastCorrect(event) {
     event.target.innerHTML = "Congrats you beat the round!!"
 }
 

@@ -31,20 +31,21 @@ giraffes.addEventListener("click", (event) => newHtml(event));
 dogs.addEventListener("click", (event) => correctAnswer(event));
 dogs.addEventListener("click", (event) => correct(event))
 
-function changeRed() {
+function changeRed(event) {
     event.target.style.backgroundColor = "red";
 }
 
-function correctAnswer() {
+function correctAnswer(event) {
     event.target.style.backgroundColor = "green";
 }
 
 
-  function correct() {
+  function correct(event) {
     event.target.innerHTML = "Way to go that's correct";
 }
 
-function lastCorrect() {
+function lastCorrect(event) {
+   
     event.target.innerHTML = "Congrats you beat the round!!"
 }
 

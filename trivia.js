@@ -22,7 +22,7 @@ const nxt1 = document.querySelector('.nxt1')
 firstQ.addEventListener("click", (event) => changeRed(event));
 firstQ.addEventListener("click", (event) => newHtml(event));
 
-function changeRed() {
+function changeRed(event) {
     event.target.style.backgroundColor = "red";
 }
 function newHtml(event) {
@@ -39,14 +39,14 @@ orange.addEventListener("click", (event) => changeRed(event));
 green.addEventListener("click", (event) => correctAnswer(event))
 green.addEventListener("click", (event) => correct(event))
 
-function correctAnswer() {
+function correctAnswer(event) {
     event.target.style.backgroundColor = "green";
 }
-function correct() {
+function correct(event) {
     event.target.innerHTML = "Correct";
 
 }
-function lastCorrect() {
+function lastCorrect(event) {
     event.target.innerHTML = "Congrats you won the game!!"
 }
 
